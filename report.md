@@ -1,3 +1,5 @@
+target:https://gitee.com/qimingjin/snow    version: v2.0.0  
+The snow system has a vulnerability classified as severe. This may cause attackers to remotely inject operating system commands or code directly into the backend server. So as to control the backend system.Attackers can steal sensitive data, such as user credentials, personal information, or business data, by injecting malicious SQL queries. Or control the server through SQL injection .  
 SQL injection exists in the dataScope parameter of the /system/role/list interface of the system.  
 The cause of this vulnerability is the use of the $ placeholder symbol.  
 ![image](https://github.com/biantaibao/snow_SQL/assets/131763503/f03ed2f3-cfb3-43c0-aac3-43b476d201da)  
